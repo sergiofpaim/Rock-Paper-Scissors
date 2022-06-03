@@ -6,9 +6,9 @@ Pre-College study #1
 # About this study exercise
 This game was my first coding exercise, it was created to reproduce simplified coding logic using a linked list.
 ## Previous stage
-I had just entered the university for the computer science course 🙌💪
+I had just entered the [Federal University of Uberlândia (UFU)](https://facom.ufu.br/en) to study computer science 🙌💪
 
-I wanted do warm me up before start taking classes at [Federal University of Uberlândia (UFU)](https://facom.ufu.br/en).
+I wanted to warm me up before start taking classes.
 ### Challenge 
 My challenge was to create a rock, paper and scissors game in the most simplified way possible. All the research I did pointed me to unstructured and hardcoded examples that weren't as efficient as I wanted my code to be.
 ### Concepts Learned.
