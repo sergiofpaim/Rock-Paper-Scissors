@@ -48,26 +48,29 @@
             // p2
             // 
             this.p2.AutoSize = true;
-            this.p2.Location = new System.Drawing.Point(632, 84);
+            this.p2.Location = new System.Drawing.Point(474, 68);
+            this.p2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(56, 16);
+            this.p2.Size = new System.Drawing.Size(45, 13);
             this.p2.TabIndex = 6;
             this.p2.Text = "Player 2";
             // 
             // p1
             // 
             this.p1.AutoSize = true;
-            this.p1.Location = new System.Drawing.Point(99, 84);
+            this.p1.Location = new System.Drawing.Point(74, 68);
+            this.p1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(56, 16);
+            this.p1.Size = new System.Drawing.Size(45, 13);
             this.p1.TabIndex = 7;
             this.p1.Text = "Player 1";
             // 
             // PlayButton
             // 
-            this.PlayButton.Location = new System.Drawing.Point(361, 192);
+            this.PlayButton.Location = new System.Drawing.Point(271, 156);
+            this.PlayButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PlayButton.Name = "PlayButton";
-            this.PlayButton.Size = new System.Drawing.Size(75, 23);
+            this.PlayButton.Size = new System.Drawing.Size(56, 28);
             this.PlayButton.TabIndex = 8;
             this.PlayButton.Text = "Play";
             this.PlayButton.UseVisualStyleBackColor = true;
@@ -78,18 +81,21 @@
             this.groupBox1.Controls.Add(this.player1_Scissors);
             this.groupBox1.Controls.Add(this.player1_Paper);
             this.groupBox1.Controls.Add(this.player1_Rock);
-            this.groupBox1.Location = new System.Drawing.Point(51, 103);
+            this.groupBox1.Location = new System.Drawing.Point(38, 84);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(171, 222);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(128, 180);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             // 
             // player1_Scissors
             // 
             this.player1_Scissors.AutoSize = true;
-            this.player1_Scissors.Location = new System.Drawing.Point(19, 89);
+            this.player1_Scissors.Location = new System.Drawing.Point(14, 72);
+            this.player1_Scissors.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.player1_Scissors.Name = "player1_Scissors";
-            this.player1_Scissors.Size = new System.Drawing.Size(80, 20);
+            this.player1_Scissors.Size = new System.Drawing.Size(64, 17);
             this.player1_Scissors.TabIndex = 2;
             this.player1_Scissors.TabStop = true;
             this.player1_Scissors.Text = "Scissors";
@@ -99,9 +105,10 @@
             // player1_Paper
             // 
             this.player1_Paper.AutoSize = true;
-            this.player1_Paper.Location = new System.Drawing.Point(19, 135);
+            this.player1_Paper.Location = new System.Drawing.Point(14, 110);
+            this.player1_Paper.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.player1_Paper.Name = "player1_Paper";
-            this.player1_Paper.Size = new System.Drawing.Size(65, 20);
+            this.player1_Paper.Size = new System.Drawing.Size(53, 17);
             this.player1_Paper.TabIndex = 1;
             this.player1_Paper.TabStop = true;
             this.player1_Paper.Text = "Paper";
@@ -111,9 +118,10 @@
             // player1_Rock
             // 
             this.player1_Rock.AutoSize = true;
-            this.player1_Rock.Location = new System.Drawing.Point(19, 45);
+            this.player1_Rock.Location = new System.Drawing.Point(14, 37);
+            this.player1_Rock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.player1_Rock.Name = "player1_Rock";
-            this.player1_Rock.Size = new System.Drawing.Size(60, 20);
+            this.player1_Rock.Size = new System.Drawing.Size(51, 17);
             this.player1_Rock.TabIndex = 0;
             this.player1_Rock.TabStop = true;
             this.player1_Rock.Text = "Rock";
@@ -125,18 +133,21 @@
             this.groupBox2.Controls.Add(this.player2_Scissors);
             this.groupBox2.Controls.Add(this.player2_Paper);
             this.groupBox2.Controls.Add(this.player2_Rock);
-            this.groupBox2.Location = new System.Drawing.Point(583, 103);
+            this.groupBox2.Location = new System.Drawing.Point(437, 84);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(164, 222);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(123, 180);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             // 
             // player2_Scissors
             // 
             this.player2_Scissors.AutoSize = true;
-            this.player2_Scissors.Location = new System.Drawing.Point(15, 89);
+            this.player2_Scissors.Location = new System.Drawing.Point(11, 72);
+            this.player2_Scissors.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.player2_Scissors.Name = "player2_Scissors";
-            this.player2_Scissors.Size = new System.Drawing.Size(80, 20);
+            this.player2_Scissors.Size = new System.Drawing.Size(64, 17);
             this.player2_Scissors.TabIndex = 2;
             this.player2_Scissors.TabStop = true;
             this.player2_Scissors.Text = "Scissors";
@@ -146,9 +157,10 @@
             // player2_Paper
             // 
             this.player2_Paper.AutoSize = true;
-            this.player2_Paper.Location = new System.Drawing.Point(15, 135);
+            this.player2_Paper.Location = new System.Drawing.Point(11, 110);
+            this.player2_Paper.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.player2_Paper.Name = "player2_Paper";
-            this.player2_Paper.Size = new System.Drawing.Size(65, 20);
+            this.player2_Paper.Size = new System.Drawing.Size(53, 17);
             this.player2_Paper.TabIndex = 1;
             this.player2_Paper.TabStop = true;
             this.player2_Paper.Text = "Paper";
@@ -158,9 +170,10 @@
             // player2_Rock
             // 
             this.player2_Rock.AutoSize = true;
-            this.player2_Rock.Location = new System.Drawing.Point(15, 45);
+            this.player2_Rock.Location = new System.Drawing.Point(11, 37);
+            this.player2_Rock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.player2_Rock.Name = "player2_Rock";
-            this.player2_Rock.Size = new System.Drawing.Size(60, 20);
+            this.player2_Rock.Size = new System.Drawing.Size(51, 17);
             this.player2_Rock.TabIndex = 0;
             this.player2_Rock.TabStop = true;
             this.player2_Rock.Text = "Rock";
@@ -171,18 +184,19 @@
             // 
             this.about.BackgroundImage = global::Rock_Paper_Scissors.Properties.Resources.about;
             this.about.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.about.Location = new System.Drawing.Point(748, 398);
+            this.about.Location = new System.Drawing.Point(561, 323);
+            this.about.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.about.Name = "about";
-            this.about.Size = new System.Drawing.Size(40, 40);
+            this.about.Size = new System.Drawing.Size(30, 32);
             this.about.TabIndex = 11;
             this.about.UseVisualStyleBackColor = true;
             this.about.Click += new System.EventHandler(this.About_Click);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.about);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -190,6 +204,7 @@
             this.Controls.Add(this.p1);
             this.Controls.Add(this.p2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Main";
